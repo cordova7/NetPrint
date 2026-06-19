@@ -92,16 +92,7 @@ página, tamaño de papel y modo (color o blanco y negro).
 
 ---
 
-## Settings file / Archivo de configuración
-
-User settings live at:
-`%LOCALAPPDATA%\NetPrint\NetPrint.exe_Url_*.user.config`
-
-The defaults are seeded from `NetPrint/App.config`.
-
----
-
-## Project layout / Estructura del proyecto
+## Project layout
 
 | File                       | Role                                                  |
 |----------------------------|-------------------------------------------------------|
