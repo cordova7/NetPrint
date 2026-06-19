@@ -55,13 +55,9 @@ namespace NetPrint
         {
             FileSystemWatcher watcher = new FileSystemWatcher();
 
-            // Resolve the folder to watch: SCANNER_DIRECTORY in .env wins;
-            // otherwise fall back to the value persisted via Opciones.
-            string watchedDirectory = ResolveWatchedDirectory();
-
             try
             {
-                watcher.Path = Directory.CreateDirectory(watchedDirectory).ToString();
+                watcher.Path = Directory.CreateDirectory(Settings.Default.ScannerDirectory).ToString();
             }
             catch (System.Exception)
             {
@@ -76,25 +72,6 @@ namespace NetPrint
             watcher.EnableRaisingEvents = true;
 
             Console.ReadLine();
-        }
-
-        /// <summary>
-        /// Returns the folder NetPrint should watch. .env's SCANNER_DIRECTORY
-        /// takes precedence so kiosk operators can flip the watched folder
-        /// without opening the Options dialog. If neither is set, defaults to
-        /// the user's Desktop.
-        /// </summary>
-        public static string ResolveWatchedDirectory()
-        {
-            var env = EnvLoader.Load();
-            if (env.TryGetValue("SCANNER_DIRECTORY", out var fromEnv) && !string.IsNullOrWhiteSpace(fromEnv))
-                return fromEnv;
-
-            string fromSettings = Settings.Default.ScannerDirectory;
-            if (!string.IsNullOrWhiteSpace(fromSettings))
-                return fromSettings;
-
-            return Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         }
 
         private static bool IsFileLocked(FileInfo file)

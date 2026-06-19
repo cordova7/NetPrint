@@ -46,68 +46,21 @@ página, tamaño de papel y modo (color o blanco y negro).
 ## Quick start / Inicio rápido
 
 1. Build the solution with Visual Studio (or `msbuild`).
-2. (Optional) Drop a `.env` file next to `NetPrint.exe` to override the
-   watched folder without opening the UI. See *Environment file* below.
-3. Run `NetPrint.exe`. The main window opens and the folder watcher starts.
-4. Click **Options / Opciones** and configure:
+2. Run `NetPrint.exe`. The main window opens and the folder watcher starts.
+3. Click **Options / Opciones** and configure:
    - The folder to watch (`Carpeta del escáner`).
    - Your printers for *Carta*, *Oficio*, *Color*, and *INE*.
    - Per-job pricing for each paper size and color mode.
-5. Drop a PDF into the watched folder. NetPrint prints it.
+4. Drop a PDF into the watched folder. NetPrint prints it.
 
 1. Compila la solución con Visual Studio (o `msbuild`).
-2. (Opcional) Coloca un archivo `.env` junto a `NetPrint.exe` para
-   cambiar la carpeta vigilada sin abrir la interfaz. Ver *Archivo .env*
-   más abajo.
-3. Ejecuta `NetPrint.exe`. Se abre la ventana principal y el vigilante
+2. Ejecuta `NetPrint.exe`. Se abre la ventana principal y el vigilante
    de carpetas arranca.
-4. Haz clic en **Opciones** y configura:
+3. Haz clic en **Opciones** y configura:
    - La carpeta que se va a vigilar (`Carpeta del escáner`).
    - Las impresoras para *Carta*, *Oficio*, *Color* e *INE*.
    - Los precios por trabajo para cada tamaño de papel y modo de color.
-5. Deja caer un PDF en la carpeta vigilada. NetPrint lo imprime.
-
----
-
-## Environment file / Archivo .env
-
-For kiosk operators who need to change the watched folder often, copy
-`NetPrint/.env.example` to `NetPrint/.env` (in the same folder as the
-executable) and edit it:
-
-```
-SCANNER_DIRECTORY=D:\scaner
-```
-
-Rules:
-- One `KEY=VALUE` per line.
-- Lines starting with `#` are comments.
-- Surrounding single or double quotes are stripped.
-- The value is **only read at startup**; restart NetPrint after editing.
-
-Precedence (highest first):
-1. `SCANNER_DIRECTORY` in `.env` (if non-empty).
-2. The folder saved via **Opciones**.
-3. Your Desktop.
-
-Para operadores que necesitan cambiar la carpeta vigilada seguido,
-copia `NetPrint/.env.example` como `NetPrint/.env` (en la misma
-carpeta del ejecutable) y edítalo:
-
-```
-SCANNER_DIRECTORY=D:\scaner
-```
-
-Reglas:
-- Una pareja `CLAVE=VALOR` por línea.
-- Las líneas que empiezan con `#` son comentarios.
-- Las comillas simples o dobles rodeando el valor se eliminan.
-- El valor **solo se lee al arrancar**; reinicia NetPrint tras editarlo.
-
-Prioridad (de mayor a menor):
-1. `SCANNER_DIRECTORY` en `.env` (si no está vacío).
-2. La carpeta guardada en **Opciones**.
-3. Tu Escritorio.
+4. Deja caer un PDF en la carpeta vigilada. NetPrint lo imprime.
 
 ---
 
@@ -161,7 +114,9 @@ The defaults are seeded from `NetPrint/App.config`.
 | `Options.cs`               | Settings dialog (printers, folder, pricing).          |
 | `INEadvancedOptions.cs`    | Crop-offset editor for the INE splitter.              |
 | `Properties/Settings.*`    | Strongly-typed `Settings.Default` accessor.           |
-| `PdfSharp/`                | Vendored copy of PdfSharp for the INE splitter.       |
+| `PdfSharp/`, `PdfSharp-gdi/` | Vendored copy of PdfSharp (core + GDI build) used   |
+|                              | by the INE splitter. WPF and Charting variants        |
+|                              | are intentionally not vendored.                      |
 
 ---
 

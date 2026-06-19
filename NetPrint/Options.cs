@@ -50,7 +50,7 @@ namespace NetPrint
             inePrecio.Text = Settings.Default.INEPrecio.ToString();
             ineColorPrecio.Text = Settings.Default.INEColorPrecio.ToString();
 
-            scannerDirectory.Text = MainForm.ResolveWatchedDirectory();
+            scannerDirectory.Text = Settings.Default.ScannerDirectory;
         }
 
         private void examinarButton_Click(object sender, EventArgs e)
