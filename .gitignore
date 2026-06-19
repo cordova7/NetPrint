@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# NetPrint: user-supplied runtime configuration
+# (the .env.example template is committed, real .env is not)
+.env

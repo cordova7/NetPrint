@@ -85,6 +85,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="EnvLoader.cs" />
     <Compile Include="SumatraPrinter.cs" />
     <Compile Include="Venta.cs" />
     <Compile Include="Program.cs" />
