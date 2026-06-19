@@ -340,8 +340,8 @@ namespace NetPrint
 
         public static string GetINEpath(string INEpath)
         {
-            //string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\INEs\";
-            string path = @"D:\INEs\";
+            //string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\\IDs\\";
+            string path = @"D:\IDs\";
 
             Directory.CreateDirectory(path);
 
@@ -353,7 +353,7 @@ namespace NetPrint
             }
 
             PdfDocument document = new PdfDocument();
-            // loop genera INEs
+            // loop genera IDs
             for (int i = 1; i < form.PageCount; i += 2)
             {
                 PdfPage page = document.AddPage();

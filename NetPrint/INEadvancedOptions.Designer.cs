@@ -47,8 +47,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(169, 44);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Ajuste de INE sobre el papel\r\n(Modificar solo si la posicion final no es la corre" +
-    "cta)";
+            this.label1.Text = "Ajuste de ID sobre el papel\r\n(Modificar solo si la posicion final no es la correcta)";
             // 
             // label2
             // 
@@ -153,7 +152,7 @@
             this.Name = "INEadvancedOptions";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Opciones INE";
+            this.Text = "Opciones ID";
             this.ResumeLayout(false);
             this.PerformLayout();
 
