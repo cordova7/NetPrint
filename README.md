@@ -19,17 +19,17 @@ página, tamaño de papel y modo (color o blanco y negro).
 
 ## Features / Características
 
-- **Folder watcher** — drop a PDF in the watched folder, NetPrint prints it.
-- **Five parallel tasks** — pre-configure different print jobs (paper size,
+- **Folder watcher**  drop a PDF in the watched folder, NetPrint prints it.
+- **Five parallel tasks**  pre-configure different print jobs (paper size,
   duplex/simplex, copies, color, INE mode) and route the same PDF through
   them in sequence.
-- **INE mode** — splits 2-up scanned Mexican voter-ID pages into single
+- **INE mode**  splits 2-up scanned Mexican voter-ID pages into single
   cards using PdfSharp (configurable crop offsets).
-- **Cash register** — running total per session, with per-job pricing
+- **Cash register**  running total per session, with per-job pricing
   configurable per paper size and color.
-- **Per-paper-size printers** — assign different Windows printers to
+- **Per-paper-size printers**  assign different Windows printers to
   *Carta* (Letter), *Oficio* (Legal), and *Color* queues.
-- **Printer engine** — uses SumatraPDF in command-line mode for silent,
+- **Printer engine**  uses SumatraPDF in command-line mode for silent,
   unattended printing.
 
 ---
@@ -114,9 +114,9 @@ página, tamaño de papel y modo (color o blanco y negro).
 ## License / Licencia
 
 This project is provided as-is for personal and commercial use.
-PdfSharp is bundled under its own MIT-style license; see `PdfSharp/` for
+PdfSharp is bundled under its own MIT-style license; see [PDFSharp](https://github.com/empira/pdfsharp) for
 details.
 
 Este proyecto se proporciona tal cual para uso personal y comercial.
-PdfSharp se incluye bajo su propia licencia tipo MIT; consulta `PdfSharp/`
+PdfSharp se incluye bajo su propia licencia tipo MIT; consulta [PDFSharp](https://github.com/empira/pdfsharp)
 para más detalles.
