@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Watcher.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CartaPrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Esclava</Value>
+    </Setting>
+    <Setting Name="OficioPrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Oficio</Value>
+    </Setting>
+    <Setting Name="ColorPrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Color</Value>
+    </Setting>
+    <Setting Name="INEPrinter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Esclava</Value>
+    </Setting>
+    <Setting Name="ScannerDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\scaner</Value>
+    </Setting>
+    <Setting Name="CartaPrecio" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1.5</Value>
+    </Setting>
+    <Setting Name="CartaDuplexPrecio" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="CartaColorPrecio" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="OficioPrecio" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="OficioDuplexPrecio" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="OficioColorPrecio" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="INEPrecio" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="INEColorPrecio" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="X1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-180</Value>
+    </Setting>
+    <Setting Name="Y1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="X2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-180</Value>
+    </Setting>
+    <Setting Name="Y2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">369</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
