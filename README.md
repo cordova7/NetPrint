@@ -9,8 +9,8 @@ Estacion de impresion por carpeta para cibercafs, papeleria y oficinas.
 ## Features
 
 - **Folder watcher** — drop a PDF in the watched folder, NetPrint prints it.
-- **Five parallel tasks** — pre-configure different print jobs (paper size, duplex/simplex, copies, color, INE mode) and route the same PDF through them in sequence.
-- **INE mode** — splits 2-up scanned Mexican voter-ID pages into single cards using PdfSharp (configurable crop offsets).
+- **Five parallel tasks** — pre-configure different print jobs (paper size, duplex/simplex, copies, color, ID mode) and route the same PDF through them in sequence.
+- **ID mode** — splits 2-up scanned Mexican ID pages into single cards using PdfSharp (configurable crop offsets).
 - **Cash register** — running total per session, with per-job pricing configurable per paper size and color.
 - **Per-paper-size printers** — assign different Windows printers to Carta (Letter), Oficio (Legal), and Color queues.
 - **Printer engine** — uses SumatraPDF in command-line mode for silent, unattended printing.
@@ -18,8 +18,8 @@ Estacion de impresion por carpeta para cibercafs, papeleria y oficinas.
 ## Caracteristicas
 
 - **Vigilante de carpeta** — deja caer un PDF en la carpeta vigilada y NetPrint lo imprime.
-- **Cinco tareas paralelas** — preconfigura diferentes trabajos de impresion (tamano de papel, doble cara/sencilla, copias, color, modo INE) y envia el mismo PDF por todos ellos en secuencia.
-- **Modo INE** — parte hojas escaneadas con dos credenciales del INE/IFE en hojas individuales usando PdfSharp (offsets de recorte configurables).
+- **Cinco tareas paralelas** — preconfigura diferentes trabajos de impresion (tamano de papel, doble cara/sencilla, copias, color, modo ID) y envia el mismo PDF por todos ellos en secuencia.
+- **Modo ID** — parte hojas escaneadas con dos credenciales del ID en hojas individuales usando PdfSharp (offsets de recorte configurables).
 - **Caja registradora** — total acumulado por sesion, con precios por trabajo configurables por tamano de papel y color.
 - **Impresoras por tamano** — asigna diferentes impresoras de Windows a las colas Carta (Letter), Oficio (Legal) y Color.
 - **Motor de impresion** — usa SumatraPDF en modo linea de comandos para impresion silenciosa y sin supervision.
@@ -80,7 +80,7 @@ Estacion de impresion por carpeta para cibercafs, papeleria y oficinas.
 | Control       | Funcion                                               |
 |---------------|-------------------------------------------------------|
 | Start! / Stop! | Activa o desactiva el vigilante de carpeta.          |
-| INE           | Trata el siguiente PDF como escaneo INE 2-up.        |
+| INE           | Trata el siguiente PDF como escaneo ID 2-up.        |
 | Duplex        | Imprime el siguiente trabajo a doble cara.            |
 | Color         | Envia el siguiente trabajo a la impresora de color.  |
 | Tarea 1-5     | Espacios preconfigurados de impresion. Marca para activar. |

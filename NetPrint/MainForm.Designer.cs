@@ -118,7 +118,7 @@ namespace NetPrint
             this.INEcheckBox.Name = "INEcheckBox";
             this.INEcheckBox.Size = new System.Drawing.Size(49, 20);
             this.INEcheckBox.TabIndex = 8;
-            this.INEcheckBox.Text = "INE";
+            this.INEcheckBox.Text = "ID";
             this.INEcheckBox.UseVisualStyleBackColor = true;
             this.INEcheckBox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -302,7 +302,7 @@ namespace NetPrint
             this.tarea5INE.Name = "tarea5INE";
             this.tarea5INE.Size = new System.Drawing.Size(44, 24);
             this.tarea5INE.TabIndex = 42;
-            this.tarea5INE.Text = "INE";
+            this.tarea5INE.Text = "ID";
             this.tarea5INE.UseVisualStyleBackColor = true;
             this.tarea5INE.CheckedChanged += new System.EventHandler(this.tarea5INE_CheckedChanged);
             // 
@@ -314,7 +314,7 @@ namespace NetPrint
             this.tarea4INE.Name = "tarea4INE";
             this.tarea4INE.Size = new System.Drawing.Size(44, 24);
             this.tarea4INE.TabIndex = 41;
-            this.tarea4INE.Text = "INE";
+            this.tarea4INE.Text = "ID";
             this.tarea4INE.UseVisualStyleBackColor = true;
             this.tarea4INE.CheckedChanged += new System.EventHandler(this.tarea4INE_CheckedChanged);
             // 
@@ -326,7 +326,7 @@ namespace NetPrint
             this.tarea3INE.Name = "tarea3INE";
             this.tarea3INE.Size = new System.Drawing.Size(44, 24);
             this.tarea3INE.TabIndex = 40;
-            this.tarea3INE.Text = "INE";
+            this.tarea3INE.Text = "ID";
             this.tarea3INE.UseVisualStyleBackColor = true;
             this.tarea3INE.CheckedChanged += new System.EventHandler(this.tarea3INE_CheckedChanged);
             // 
@@ -338,7 +338,7 @@ namespace NetPrint
             this.tarea2INE.Name = "tarea2INE";
             this.tarea2INE.Size = new System.Drawing.Size(44, 24);
             this.tarea2INE.TabIndex = 39;
-            this.tarea2INE.Text = "INE";
+            this.tarea2INE.Text = "ID";
             this.tarea2INE.UseVisualStyleBackColor = true;
             this.tarea2INE.CheckedChanged += new System.EventHandler(this.tarea2INE_CheckedChanged);
             // 
@@ -351,7 +351,7 @@ namespace NetPrint
             this.tarea1INE.Name = "tarea1INE";
             this.tarea1INE.Size = new System.Drawing.Size(44, 24);
             this.tarea1INE.TabIndex = 38;
-            this.tarea1INE.Text = "INE";
+            this.tarea1INE.Text = "ID";
             this.tarea1INE.UseVisualStyleBackColor = true;
             this.tarea1INE.CheckedChanged += new System.EventHandler(this.tarea1INE_CheckedChanged);
             // 

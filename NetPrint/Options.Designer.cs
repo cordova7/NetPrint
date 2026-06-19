@@ -169,7 +169,7 @@ namespace NetPrint
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(25, 13);
             this.label9.TabIndex = 9;
-            this.label9.Text = "INE";
+            this.label9.Text = "ID";
             // 
             // label10
             // 
@@ -214,7 +214,7 @@ namespace NetPrint
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(52, 13);
             this.label14.TabIndex = 17;
-            this.label14.Text = "INE Color";
+            this.label14.Text = "ID Color";
             // 
             // label15
             // 
@@ -223,7 +223,7 @@ namespace NetPrint
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(25, 13);
             this.label15.TabIndex = 16;
-            this.label15.Text = "INE";
+            this.label15.Text = "ID";
             // 
             // label16
             // 
