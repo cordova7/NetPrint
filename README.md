@@ -1,8 +1,8 @@
 # NetPrint
 
-Folder-watching print station for small copy shops, kiosks, and offices.
+Print station that watches a folder and auto-prints PDFs to configured printers.
 
-Estacion de impresion por carpeta para cibercafs, papeleria y oficinas.
+Estacion de impresion que vigila una carpeta e imprime PDFs automaticamente.
 
 ---
 
