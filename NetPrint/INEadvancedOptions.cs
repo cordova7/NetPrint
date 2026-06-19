@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using Watcher.Properties;
+using NetPrint.Properties;
 
-namespace Watcher
+namespace NetPrint
 {
     public partial class INEadvancedOptions : Form
     {

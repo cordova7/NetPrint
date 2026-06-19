@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfSharp-wpf", "PdfSharp-wp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfSharp.Charting-wpf", "PdfSharp.Charting-wpf\PdfSharp.Charting-wpf.csproj", "{E6A2734E-0CD6-4210-8AEC-47EE348F8D78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Watcher", "Watcher\Watcher.csproj", "{EFB44AB2-6ECF-4C88-8FD8-A9E38CF802E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetPrint", "NetPrint\NetPrint.csproj", "{EFB44AB2-6ECF-4C88-8FD8-A9E38CF802E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,9 +1,9 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
 
-namespace Watcher
+namespace NetPrint
 {
-    partial class WatcherForm
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@ namespace Watcher
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WatcherForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
             this.INEcheckBox = new System.Windows.Forms.CheckBox();
@@ -525,7 +525,7 @@ namespace Watcher
             this.opcionesButton.UseVisualStyleBackColor = false;
             this.opcionesButton.Click += new System.EventHandler(this.opcionesButton_Click);
             // 
-            // WatcherForm
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -566,10 +566,10 @@ namespace Watcher
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.MaximizeBox = false;
-            this.Name = "WatcherForm";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "C        O        P        I        A        S";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WatcherForm_FormClosing);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tarea1copies)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tarea2copies)).EndInit();

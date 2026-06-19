@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada a un ensamblado.
-[assembly: AssemblyTitle("Watcher")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("NetPrint")]
+[assembly: AssemblyDescription("Folder watcher that auto-prints PDFs to multiple printers with revenue tracking")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Watcher")]
+[assembly: AssemblyProduct("NetPrint")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

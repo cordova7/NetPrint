@@ -10,22 +10,21 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Watcher.Properties;
+using NetPrint.Properties;
 
-namespace Watcher
+namespace NetPrint
 {
-    public partial class Opciones : Form
+    public partial class Options : Form
     {
-        static Opciones opciones;
-        public Opciones()
+        static Options options;
+
+        public Options()
         {
-            opciones = this;
-            
+            options = this;
+
             InitializeComponent();
 
             LoadOptions();
-
-
         }
 
         private void LoadOptions()

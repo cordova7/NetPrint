@@ -1,8 +1,8 @@
-﻿using Watcher.Properties;
+﻿using NetPrint.Properties;
 
-namespace Watcher
+namespace NetPrint
 {
-    partial class Opciones
+    partial class Options
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Watcher
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Opciones));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Options));
             this.aceptarButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -476,7 +476,7 @@ namespace Watcher
             this.resetOptionsButton.UseVisualStyleBackColor = true;
             this.resetOptionsButton.Click += new System.EventHandler(this.resetOptionsButton_Click);
             // 
-            // Opciones
+            // Options
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -527,9 +527,9 @@ namespace Watcher
             this.Controls.Add(this.aceptarButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Opciones";
+            this.Name = "Options";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Opciones";
+            this.Text = "Options";
             this.ResumeLayout(false);
             this.PerformLayout();
 

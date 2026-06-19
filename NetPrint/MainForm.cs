@@ -13,14 +13,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Watcher.Properties;
+using NetPrint.Properties;
 
-namespace Watcher
+namespace NetPrint
 {
-    public partial class WatcherForm : Form
+    public partial class MainForm : Form
     {
-
-        public static WatcherForm form;
+        public static MainForm form;
 
 
         static bool printStatus = true;
@@ -44,17 +43,15 @@ namespace Watcher
 
 
 
-        public WatcherForm()
+        public MainForm()
         {
-            
             form = this;
             InitializeComponent();
-            RunWatcher();
-            
+            StartWatching();
         }
 
         [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
-        public static void RunWatcher()
+        public static void StartWatching()
         {
             FileSystemWatcher watcher = new FileSystemWatcher();
 
@@ -621,13 +618,13 @@ namespace Watcher
         {
             if (tarea2INE.Checked)
             {
-                tarea1parameters.INEmode = true;
+                tarea2parameters.INEmode = true;
                 tarea2checkBox.Checked = true;
                 tarea2mode.Checked = false;
                 tarea2INE.Checked = true;
             } else
             {
-                tarea1parameters.INEmode = false;
+                tarea2parameters.INEmode = false;
             }
         }
         private void tarea2copies_ValueChanged(object sender, EventArgs e)
@@ -856,11 +853,11 @@ namespace Watcher
 
         private void opcionesButton_Click(object sender, EventArgs e)
         {
-            Opciones OpcionesForm = new Opciones();
-            OpcionesForm.ShowDialog();
+            Options optionsForm = new Options();
+            optionsForm.ShowDialog();
         }
 
-        private void WatcherForm_FormClosing(object sender, FormClosingEventArgs e)
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             
         }

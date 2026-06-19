@@ -1,12 +1,8 @@
 ﻿using PdfSharp.Drawing;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Watcher.Properties;
+using NetPrint.Properties;
 
-namespace Watcher
+namespace NetPrint
 {
     public class Parameters
     {

@@ -1,4 +1,4 @@
-﻿namespace Watcher
+﻿namespace NetPrint
 {
     partial class INEadvancedOptions
     {

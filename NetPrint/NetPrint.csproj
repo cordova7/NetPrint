@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EFB44AB2-6ECF-4C88-8FD8-A9E38CF802E1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Watcher</RootNamespace>
-    <AssemblyName>Watcher</AssemblyName>
+    <RootNamespace>NetPrint</RootNamespace>
+    <AssemblyName>NetPrint</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -87,12 +87,12 @@
     </Compile>
     <Compile Include="SumatraPrinter.cs" />
     <Compile Include="Venta.cs" />
-    <Compile Include="Watcher.cs" />
-    <Compile Include="WatcherForm.cs">
+    <Compile Include="Program.cs" />
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WatcherForm.Designer.cs">
-      <DependentUpon>WatcherForm.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -109,8 +109,8 @@
     <EmbeddedResource Include="Options.resx">
       <DependentUpon>Options.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WatcherForm.resx">
-      <DependentUpon>WatcherForm.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
